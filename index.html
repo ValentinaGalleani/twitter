@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link rel="stylesheet" href="app.js">
+	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+</head>
+<body>
+	<!-- cabezera -->
+	<header class="header-box">
+		<div class="tittle">
+		<h1>twitter</h1>
+		</div>
+	</header>
+	<!-- fin cabezera -->
+	<!-- comienzo de la primera seccion (caja izquierda) -->
+	<section class="information">
+		 	<h2>Reto de código</h2>
+            <p>Hola,<br>soy front-end developer junior</p>
+            <hr>
+            <p>código</p>
+	</section>
+		<!-- fin primera sección (caja izquierda) -->
+		<!-- inicio segunda seccion (caja derecha, textarea)  -->
+	<section id="box-right" class="box-right">
+		<form id="container" class="containerr">
+			<textarea name="texto" id="comment" placeholder="¿Qué esta pasando?" ></textarea>
+			<hr>
+			<button type="button" id="boton" onclick="add()">Twetts</button>
+			<p id="limite">140</p>	
+		</form>	
+	</section>
+	<!-- fin segunda seccion (posteos)  -->
+	<div id="post"></div>
+
+
+	
+	<!-- enlace de javaScript -->
+	<script src="assets/js/app.js"></script>
+</body>
+</html>

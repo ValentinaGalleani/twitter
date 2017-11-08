@@ -1,0 +1,65 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	margin: auto;
+	background-image: url(../img/gato/);
+	background-size: cover;
+}
+/* estilos del encabezado*/
+.header-box{
+	height: 90px; 
+	width: 100%;
+	background-color: #6AD2F3;
+	text-align: center;
+}
+
+.tittle{
+	font-family: 'PT Mono', monospace;
+	font-size: 14px;
+	color: #FFF;
+	display: inline-block;
+}
+/*primera sección (caja izquierda)*/
+.information{
+	height: auto;
+	width: 40%;
+	font-family: 'PT Mono', monospace;
+	display: inline-block;
+	background-color: #fff;
+	margin-left:50px;
+	padding: 10px;
+	margin-right: 50px;
+	vertical-align: top;
+	border-radius: 3px;
+	opacity: 1;
+	margin-top: 20px;
+}
+/*segunda sección (caja derecha)*/
+.box-right{
+	height: auto;
+	width: 40%;
+	display: inline-block;
+	padding: 30px;
+	border-radius: 3px;
+	background-color: #fff;
+	vertical-align: top;
+	margin-top: 20px;	
+}
+.box-right textarea{
+	width: 400px;
+	height: 50px;
+	resize: both;
+	overflow: auto;
+}
+.container{
+	height: auto;	
+}
+
+#post{
+	width: 1000px;
+	height: 100px;
+	color:#FFF;
+}
