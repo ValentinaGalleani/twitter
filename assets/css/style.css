@@ -37,6 +37,9 @@ body{
 	opacity: 1;
 	margin-top: 20px;
 }
+.azul{
+	color: blue;
+}
 /*segunda sección (caja derecha)*/
 .box-right{
 	height: auto;
